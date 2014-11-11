@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5CDF5CD1A11CEC600B092CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDF5CC1A11CEC600B092CB /* main.m */; };
+		F5CDF5D01A11CEC600B092CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDF5CF1A11CEC600B092CB /* AppDelegate.m */; };
+		F5CDF5D31A11CEC600B092CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDF5D21A11CEC600B092CB /* ViewController.m */; };
+		F5CDF5D61A11CEC600B092CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CDF5D41A11CEC600B092CB /* Main.storyboard */; };
+		F5CDF5D81A11CEC600B092CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CDF5D71A11CEC600B092CB /* Images.xcassets */; };
+		F5CDF5DB1A11CEC700B092CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5CDF5D91A11CEC700B092CB /* LaunchScreen.xib */; };
+		F5CDF5E71A11CEC700B092CB /* SCJHOrderMealsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDF5E61A11CEC700B092CB /* SCJHOrderMealsAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5CDF5E11A11CEC700B092CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5CDF5BF1A11CEC600B092CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5CDF5C61A11CEC600B092CB;
+			remoteInfo = SCJHOrderMealsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5CDF5C71A11CEC600B092CB /* SCJHOrderMealsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCJHOrderMealsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CDF5CB1A11CEC600B092CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CDF5CC1A11CEC600B092CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5CDF5CE1A11CEC600B092CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5CDF5CF1A11CEC600B092CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5CDF5D11A11CEC600B092CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5CDF5D21A11CEC600B092CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5CDF5D51A11CEC600B092CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5CDF5D71A11CEC600B092CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5CDF5DA1A11CEC700B092CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F5CDF5E01A11CEC700B092CB /* SCJHOrderMealsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCJHOrderMealsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CDF5E51A11CEC700B092CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CDF5E61A11CEC700B092CB /* SCJHOrderMealsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCJHOrderMealsAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5CDF5C41A11CEC600B092CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDF5DD1A11CEC700B092CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5CDF5BE1A11CEC600B092CB = {
+			isa = PBXGroup;
+			children = (
+				F5CDF5C91A11CEC600B092CB /* SCJHOrderMealsApp */,
+				F5CDF5E31A11CEC700B092CB /* SCJHOrderMealsAppTests */,
+				F5CDF5C81A11CEC600B092CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5CDF5C81A11CEC600B092CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5CDF5C71A11CEC600B092CB /* SCJHOrderMealsApp.app */,
+				F5CDF5E01A11CEC700B092CB /* SCJHOrderMealsAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5CDF5C91A11CEC600B092CB /* SCJHOrderMealsApp */ = {
+			isa = PBXGroup;
+			children = (
+				F5CDF5CE1A11CEC600B092CB /* AppDelegate.h */,
+				F5CDF5CF1A11CEC600B092CB /* AppDelegate.m */,
+				F5CDF5D11A11CEC600B092CB /* ViewController.h */,
+				F5CDF5D21A11CEC600B092CB /* ViewController.m */,
+				F5CDF5D41A11CEC600B092CB /* Main.storyboard */,
+				F5CDF5D71A11CEC600B092CB /* Images.xcassets */,
+				F5CDF5D91A11CEC700B092CB /* LaunchScreen.xib */,
+				F5CDF5CA1A11CEC600B092CB /* Supporting Files */,
+			);
+			path = SCJHOrderMealsApp;
+			sourceTree = "<group>";
+		};
+		F5CDF5CA1A11CEC600B092CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5CDF5CB1A11CEC600B092CB /* Info.plist */,
+				F5CDF5CC1A11CEC600B092CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5CDF5E31A11CEC700B092CB /* SCJHOrderMealsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5CDF5E61A11CEC700B092CB /* SCJHOrderMealsAppTests.m */,
+				F5CDF5E41A11CEC700B092CB /* Supporting Files */,
+			);
+			path = SCJHOrderMealsAppTests;
+			sourceTree = "<group>";
+		};
+		F5CDF5E41A11CEC700B092CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5CDF5E51A11CEC700B092CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5CDF5C61A11CEC600B092CB /* SCJHOrderMealsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CDF5EA1A11CEC700B092CB /* Build configuration list for PBXNativeTarget "SCJHOrderMealsApp" */;
+			buildPhases = (
+				F5CDF5C31A11CEC600B092CB /* Sources */,
+				F5CDF5C41A11CEC600B092CB /* Frameworks */,
+				F5CDF5C51A11CEC600B092CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCJHOrderMealsApp;
+			productName = SCJHOrderMealsApp;
+			productReference = F5CDF5C71A11CEC600B092CB /* SCJHOrderMealsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5CDF5DF1A11CEC700B092CB /* SCJHOrderMealsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CDF5ED1A11CEC700B092CB /* Build configuration list for PBXNativeTarget "SCJHOrderMealsAppTests" */;
+			buildPhases = (
+				F5CDF5DC1A11CEC700B092CB /* Sources */,
+				F5CDF5DD1A11CEC700B092CB /* Frameworks */,
+				F5CDF5DE1A11CEC700B092CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5CDF5E21A11CEC700B092CB /* PBXTargetDependency */,
+			);
+			name = SCJHOrderMealsAppTests;
+			productName = SCJHOrderMealsAppTests;
+			productReference = F5CDF5E01A11CEC700B092CB /* SCJHOrderMealsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5CDF5BF1A11CEC600B092CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = wangliang;
+				TargetAttributes = {
+					F5CDF5C61A11CEC600B092CB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F5CDF5DF1A11CEC700B092CB = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F5CDF5C61A11CEC600B092CB;
+					};
+				};
+			};
+			buildConfigurationList = F5CDF5C21A11CEC600B092CB /* Build configuration list for PBXProject "SCJHOrderMealsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5CDF5BE1A11CEC600B092CB;
+			productRefGroup = F5CDF5C81A11CEC600B092CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5CDF5C61A11CEC600B092CB /* SCJHOrderMealsApp */,
+				F5CDF5DF1A11CEC700B092CB /* SCJHOrderMealsAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5CDF5C51A11CEC600B092CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CDF5D61A11CEC600B092CB /* Main.storyboard in Resources */,
+				F5CDF5DB1A11CEC700B092CB /* LaunchScreen.xib in Resources */,
+				F5CDF5D81A11CEC600B092CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDF5DE1A11CEC700B092CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5CDF5C31A11CEC600B092CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CDF5D31A11CEC600B092CB /* ViewController.m in Sources */,
+				F5CDF5D01A11CEC600B092CB /* AppDelegate.m in Sources */,
+				F5CDF5CD1A11CEC600B092CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDF5DC1A11CEC700B092CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CDF5E71A11CEC700B092CB /* SCJHOrderMealsAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5CDF5E21A11CEC700B092CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5CDF5C61A11CEC600B092CB /* SCJHOrderMealsApp */;
+			targetProxy = F5CDF5E11A11CEC700B092CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5CDF5D41A11CEC600B092CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CDF5D51A11CEC600B092CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5CDF5D91A11CEC700B092CB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CDF5DA1A11CEC700B092CB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5CDF5E81A11CEC700B092CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5CDF5E91A11CEC700B092CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5CDF5EB1A11CEC700B092CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SCJHOrderMealsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5CDF5EC1A11CEC700B092CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SCJHOrderMealsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5CDF5EE1A11CEC700B092CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SCJHOrderMealsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCJHOrderMealsApp.app/SCJHOrderMealsApp";
+			};
+			name = Debug;
+		};
+		F5CDF5EF1A11CEC700B092CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SCJHOrderMealsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCJHOrderMealsApp.app/SCJHOrderMealsApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5CDF5C21A11CEC600B092CB /* Build configuration list for PBXProject "SCJHOrderMealsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CDF5E81A11CEC700B092CB /* Debug */,
+				F5CDF5E91A11CEC700B092CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CDF5EA1A11CEC700B092CB /* Build configuration list for PBXNativeTarget "SCJHOrderMealsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CDF5EB1A11CEC700B092CB /* Debug */,
+				F5CDF5EC1A11CEC700B092CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5CDF5ED1A11CEC700B092CB /* Build configuration list for PBXNativeTarget "SCJHOrderMealsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CDF5EE1A11CEC700B092CB /* Debug */,
+				F5CDF5EF1A11CEC700B092CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5CDF5BF1A11CEC600B092CB /* Project object */;
+}
